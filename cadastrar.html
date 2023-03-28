@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastrar</title>
+
+        <!-- Estilo customizado -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    </head>
+    <body>
+
+        <!-- inicio cabeçalho-->
+        <header>
+            <div class="container">
+                <div id="logo">
+                    <h1><a href="index.html" >finanças pessoais</a></h1>
+                </div>
+                <nav >
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="orcamento_pessoal.html">Orçamento Pessoal</a></li>
+                        <li><a href="Contatos.html">Contatos</a></li>
+                        <li class="entrar"><a href="entrar.html"><button>Entrar</button></a></li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+            </div>
+        </header>
+        <!-- fim cabeçalho -->
+
+        <!-- inicio seção home -->
+        <section class="section-topo">
+            <div class="container">
+                <div class="section-topo-left">
+                    <h1 class="display-4">
+                        Suas contas descomplicadas
+                        <br>
+                        Cadastre-se
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Integer scelerisque hendrerit lacus sit amet aliquet. 
+                        Cras non venenatis purus. Suspendisse at lectus ut mi dignissim venenatis.
+                    </p>
+                    
+                    <div class="disponivel-icones">
+                        <p>
+                            Disponivel para 
+                            <a href="https://www.android.com/intl/pt-BR_br/">
+                                <button><i class="fab fa-android"></i></button>
+                            </a>
+                            <a href="https://www.apple.com/br/">
+                                <button><i class="fab fa-apple"></i></button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="capa-mulher">
+                    <img src="imagens/capa-mulher.png" alt="" srcset="">
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <!-- fim seção home -->
+
+        <!-- inicio seção cadastrar -->
+        <section class="caixa">
+            <div class="container">
+                <form action="" method="" class="area-cadastrar">
+                    <input type="text" name="cpf" id="cpf" placeholder="CPF" required>
+                    <br>
+
+                    <input type="text" name="nome" id="nome" placeholder="NOME COMPLETO" required>
+                    <br>
+
+                    <input class="ocupa-metade" type="date" name="data_nasc" id="data_nasc" placeholder="dd/mm/aaaa"  required>
+                    
+                    <select class="genero-estado ocupa-metade" class="estado largura-20" name="estado" id="estado">
+                        <option value="">GÊNERO</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                    <br>
+
+                    <input type="email" name="email" id="email" placeholder="E-MAIL">
+                    <br>
+
+                    <input class="ocupa-metade" type="password" name="senha" id="senha" placeholder="SENHA">
+                    <input class="ocupa-metade" type="password" name="c_senha" id="c_senha" placeholder="CONFIRMAR SENHA">
+                    <br>
+
+                    <input class="ocupa-metade" type="text" name="celular" id="celular" placeholder="CELULAR" required>
+                    <input class="ocupa-metade" type="text" name="telefone" id="telefone" placeholder="TELEFONE" required>
+                    <br>
+
+                    <input class="ocupa-metade cep" type="text" name="cep" id="cep" placeholder="CEP" required>
+                    <br>
+                    <div class="clear"></div>
+
+                    <select class="genero-estado largura-20" name="estado" id="estado">
+                        <option value="">ESTADO</option>
+                        <option value="ac">AC</option>
+                        <option value="al">AL</option>
+                        <option value="am">AM</option>
+                        <option value="ap">AP</option>
+                        <option value="ba">BA</option>
+                        <option value="ce">CE</option>
+                        <option value="df">DF</option>
+                        <option value="es">ES</option>
+                        <option value="go">GO</option>
+                        <option value="ma">MA</option>
+                        <option value="mg">MG</option>
+                        <option value="ms">MS</option>
+                        <option value="mt">MT</option>
+                        <option value="pa">PA</option>
+                        <option value="pb">PB</option>
+                        <option value="pe">PE</option>
+                        <option value="pi">PI</option>
+                        <option value="pr">PR</option>
+                        <option value="rj">RJ</option>
+                        <option value="rn">RN</option>
+                        <option value="rs">RS</option>
+                        <option value="ro">RO</option>
+                        <option value="rr">RR</option>
+                        <option value="sc">SC</option>
+                        <option value="se">SE</option>
+                        <option value="sp">SP</option>
+                        <option value="to">TO</option>
+                    </select>
+                    <input class="area-75" type="text" name="cidade" id="cidade" placeholder="CIDADE" required>
+                    <br>
+
+                    <input class="area-75" type="text" name="endereco" id="endereco" placeholder="ENDEREÇO" required>
+                    <input class="largura-20" type="text" name="numero" id="numero" placeholder="NÚMERO" required>
+                    <br>
+
+                    <input class="bairro" type="text" name="bairro" id="bairro" placeholder="BAIRRO" required>
+                    <input class="complemento" type="text" name="complemento" id="complemento" placeholder="COMPLEMENTO">
+                    <br>
+
+                    <input class="submit" type="submit" value="ENVIAR">
+                    
+                </form>
+            </div>
+        </section>
+        <!-- fim seção cadastrar -->
+
+        
+
+        <footer class="container">
+
+            <div class="navegacao-footer">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="orcamento_pessoal.html">Orçamento Pessoal</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </div>
+
+            <div class="navegacao-icones">
+                <ul>
+                    <li><a href="https://www.facebook.com/"><button><i class="fab fa-facebook"></i></button></i></a></li>
+                    <li><a href="https://twitter.com/"><button><i class="fab fa-twitter"></i></button></i></a></li>
+                    <li><a href="https://www.instagram.com/"><button><i class="fab fa-instagram"></i></button></i></a></li>
+                    <li><a href="https://www.youtube.com/"><button><i class="fab fa-youtube"></i></button></i></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+
+        </footer>
+        
+    </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Orçamento pessoal</title>
+
+        <!-- Estilo customizado -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        <!-- Normalize CSS -->
+        <!--
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        -->
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+        <!-- configuração para as novas tags -->
+        <!--[if lt IE 9]>
+            <script src="javascript/html5shiv.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+
+        <header>
+            <div class="container">
+                <div id="logo">
+                    <h1><a href="" >finanças pessoais</a></h1>
+                </div>
+                <nav >
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="orcamento_pessoal.html">Orçamento Pessoal</a></li>
+                        <li><a href="Contatos.html">Contatos</a></li>
+                        <li class="entrar"><a href="entrar.html"><button>Entrar</button></a></li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+            </div>
+        </header>
+
+        <!-- inicio seção home -->
+        <section class="section-topo">
+            <div class="container">
+                <div class="section-topo-left ">
+                    <h1 class="display-4">Registro de nova despesa</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque hendrerit lacus sit amet aliquet. Cras non venenatis purus.
+                    </p>
+                    
+                    <div class="cadastrar-consultar">
+                        <button><a href="orcamento_pessoal.html">Cadastro</a></button>
+                        <button><a href="consulta_orcamento_pessoal.html">Consulta</a></button>
+                    </div>
+                </div>
+
+                <div class="capa-mulher">
+                    <img src="imagens/capa-mulher.png" alt="" srcset="">
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <!-- fim seção home -->
+
+        <!-- inicio seção formulario cadastrar -->
+        <section class="caixa">
+            <div class="container">
+                <form action="" class="area-cadastrar-orcamento">
+                    <input type="text" name="years" id="years" placeholder="Ano">
+                    <select name="mes" id="mes">
+                        <option value="">Mês</option>
+                        <option value="janeiro">Janeiro</option>
+                        <option value="fevereiro">Fevereiro</option>
+                        <option value="marco">Março</option>
+                        <option value="abril">Abril</option>
+                        <option value="maio">Maio</option>
+                        <option value="junho">Junho</option>
+                        <option value="julho">Julho</option>
+                        <option value="agosto">Agosto</option>
+                        <option value="setembro">Setembro</option>
+                        <option value="outubro">Outubro</option>
+                        <option value="novembro">Novembro</option>
+                        <option value="dezembro">Dezembro</option>
+                    </select>
+                    <input type="number" name="dia" id="dia" placeholder="Dia">
+                    <select class="tipo" name="tipo" id="tipo">
+                        <option value="">Tipo</option>
+                        <option value="alimentacao">Alimentação</option>
+                        <option value="educacao">Educação</option>
+                        <option value="lazer">Lazer</option>
+                        <option value="saude">Saúde</option>
+                        <option value="transporte">Transporte</option>
+                    </select>
+                    <input class="descricao" type="text" name="descricao" id="descricao" placeholder="Descrição">
+                    <input type="text" name="valor" id="valor" placeholder="Valor">
+                    <input class="submit" type="submit" value="Adicionar">
+                </form>
+            </div>
+        </section>
+        <!-- fim seção formulario cadastrar -->
+        
+
+        <footer class="container">
+
+            <div class="navegacao-footer">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="orcamento_pessoal.html">Orçamento Pessoal</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </div>
+
+            <div class="navegacao-icones">
+                <ul>
+                    <li><a href="https://www.facebook.com/"><button><i class="fab fa-facebook"></i></button></i></a></li>
+                    <li><a href="https://twitter.com/"><button><i class="fab fa-twitter"></i></button></i></a></li>
+                    <li><a href="https://www.instagram.com/"><button><i class="fab fa-instagram"></i></button></i></a></li>
+                    <li><a href="https://www.youtube.com/"><button><i class="fab fa-youtube"></i></button></i></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+
+        </footer>
+        
+    </body>
+</html>
